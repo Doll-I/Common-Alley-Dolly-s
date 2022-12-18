@@ -25,14 +25,4 @@ public class SkyTime : MonoBehaviour
 
         transform.position = new Vector3(0, currentPosition, 0);
     }
-    private void Awake()
-    {
-        if (Instance != null){
-            Destroy(gameObject);
-            return;
-        }
- 
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class cust1 : MonoBehaviour
 {
@@ -17,7 +18,6 @@ public class cust1 : MonoBehaviour
     void Start() {
         balloon.SetActive(false);
         text.SetActive(false);
-        anim = GetComponent<Animation>();
         mission = false;
         quest_i.SetActive(false);
         quest_main.SetActive(false);
@@ -25,6 +25,7 @@ public class cust1 : MonoBehaviour
         quest_cust.SetActive(false);
         quest_doll.SetActive(false);
         sign.SetActive(false);
+        anim = GetComponent<Animation>();
         //clear_c = false;
         //clear_l = false;
         Invoke("goBalloon", 4.6f);
@@ -65,7 +66,6 @@ public class cust1 : MonoBehaviour
         if (quest == true){ //들어온 의뢰가 있으면
             quest_i.SetActive(true); //퀘스트 아이콘 활성화
         }
-        
         if (Input.GetKeyDown(KeyCode.W)) { //if (clear_l == true && clear_c == true){ //이거 둘다 true면 나가는 애니메이션 하라는 뜻임 이것도 문법 안맞을 수 있음
         //지금은 되나 시범상 w누르면 나감
             anim.Play("custOut"); //걸어나가는 모션은 만들어두겠음

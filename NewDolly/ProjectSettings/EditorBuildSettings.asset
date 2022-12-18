@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/UnityScene/startScene.unity
     guid: 6fd533e8344223e4db6becfbba813156
   - enabled: 1
+    path: Assets/UnityScene/cutScene/cutScene1.unity
+    guid: 785547abe476e784bb9a6e884a5b6427
+  - enabled: 1
+    path: Assets/UnityScene/cutScene/cutScene2.unity
+    guid: b22530b0869287a4aadd2f55bc3487ba
+  - enabled: 1
+    path: Assets/UnityScene/cutScene/cutScene3.unity
+    guid: 1a0ddc761623e0c49b2bb4bb65b124fe
+  - enabled: 1
     path: Assets/UnityScene/craftScene.unity
     guid: f307d4376f2ed9246b616dfa75b99932
   - enabled: 1
@@ -29,13 +38,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UnityScene/shopScene.unity
     guid: 6a1fd314eec10324092075864fc7f12e
-  - enabled: 1
-    path: Assets/UnityScene/cutScene/cutScene1.unity
-    guid: 785547abe476e784bb9a6e884a5b6427
-  - enabled: 1
-    path: Assets/UnityScene/cutScene/cutScene2.unity
-    guid: b22530b0869287a4aadd2f55bc3487ba
-  - enabled: 1
-    path: Assets/UnityScene/cutScene/cutScene3.unity
-    guid: 1a0ddc761623e0c49b2bb4bb65b124fe
   m_configObjects: {}
