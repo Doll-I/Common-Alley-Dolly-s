@@ -9,7 +9,7 @@ public class sliderTimer : MonoBehaviour
     Slider slTimer;
     float fSliderBarTime;
     float speed = 0.005f;
-
+    
     // Start is called before the first frame update
     void Start()
     {

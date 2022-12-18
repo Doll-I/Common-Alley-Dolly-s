@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class canvasDontdestroy : MonoBehaviour
+public class custDontdestroy : MonoBehaviour
 {
-    public static canvasDontdestroy Instance;
+    public static custDontdestroy Instance;
 
     private void Awake(){
         if (Instance != null)  {
