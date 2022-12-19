@@ -80,6 +80,7 @@ public class cust1 : MonoBehaviour
              balloon.SetActive(false);
              text.SetActive(false);
              anim.Play("custOut"); //걸어나가는 모션은 만들어두겠음
+             sign.SetActive(true);
              quest_cust.SetActive(true);
              quest_doll.SetActive(true);
              quest_main.SetActive(true);
