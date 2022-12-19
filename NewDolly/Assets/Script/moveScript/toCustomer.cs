@@ -8,7 +8,7 @@ public class toCustomer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManager.clear_c = true;
     }
 
     // Update is called once per frame
@@ -18,6 +18,9 @@ public class toCustomer : MonoBehaviour
     }
     public void SceneChange()
     {
-        SceneManager.LoadScene("customerScene");
+        if (gameManager.clear_c && gameManager.clear_l)
+            SceneManager.LoadScene("customerSceneComplete");
+        else
+            SceneManager.LoadScene("customerScene");
     }
 }
