@@ -3,21 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class toCraft : MonoBehaviour
+public class gameManager : MonoBehaviour
 {
+    public static bool clear_l, clear_c;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        gameManager.clear_l = true;
+        clear_l = false;
+        clear_c = false;
+        DontDestroyOnLoad(this.gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
         
-    }
-    public void SceneChange()
-    {
-        SceneManager.LoadScene("craftScene");
     }
 }
