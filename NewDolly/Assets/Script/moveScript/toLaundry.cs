@@ -18,6 +18,6 @@ public class toLaundry : MonoBehaviour
     }
     public void SceneChange()
     {
-        SceneManager.LoadScene("LaundryScene");
+        SceneManager.LoadScene("laundryScene");
     }
 }
