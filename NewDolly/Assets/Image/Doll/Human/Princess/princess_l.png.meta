@@ -1,7 +1,16 @@
 fileFormatVersion: 2
+
+guid: 19de05974705e21409ca18fb7b753e3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3483468463047308833
+    second: princess_l_0
+
 guid: f1c36bc65b530044481b4e044ebcf7e7
 TextureImporter:
   internalIDToNameTable: []
+
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,7 +50,10 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+
+  spriteMode: 2
+
+
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -88,6 +100,32 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: princess_l_0
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 557
+        width: 274
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126f5366c14c75030800000000000000
+      internalID: 3483468463047308833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -127,6 +165,7 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
+
     outline: []
     physicsShape: []
     bones: []
