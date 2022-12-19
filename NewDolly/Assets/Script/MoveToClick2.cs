@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
  
-public class MoveToClick2 : MonoBehaviour
+public class MoveToClick : MonoBehaviour
 {
     [SerializeField] float speed = 10f;
     Vector3 mousePos, transPos, targetPos;
