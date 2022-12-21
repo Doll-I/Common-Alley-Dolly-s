@@ -10,13 +10,13 @@ public class cutScene3 : MonoBehaviour
         Destroy(cut3_0, 1);
         Destroy(cut3_1, 2);
         Destroy(cut3_2, 3);
-        Destroy(cut3_3, 4);
-        Destroy(cut3_4, 5);
-        Destroy(cut3_51, 6);
-        Destroy(cut3_511, 6);
-        Destroy(cut3_52, 6);
-        Destroy(cut3_53, 6);
-        Destroy(cut3_54, 6);
-        Destroy(cut3_6, 7);
+        Destroy(cut3_3, 3.5f);
+        Destroy(cut3_4, 4);
+        Destroy(cut3_51, 5);
+        Destroy(cut3_511, 5);
+        Destroy(cut3_52, 5);
+        Destroy(cut3_53, 5);
+        Destroy(cut3_54, 5);
+        Destroy(cut3_6, 6);
     }
 }

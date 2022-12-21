@@ -18,6 +18,10 @@ public class MoveToClick : MonoBehaviour
         MoveToTarget();
 
     }
+
+    void Start(){
+        transform.position = new Vector3(6.94f, -3.88f, 0);
+    }
     
     void CalTargetPos()
     {

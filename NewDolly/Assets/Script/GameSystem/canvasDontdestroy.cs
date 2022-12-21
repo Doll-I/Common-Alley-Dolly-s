@@ -20,7 +20,7 @@ public class canvasDontdestroy : MonoBehaviour
     private void Update()
     {
         scene = SceneManager.GetActiveScene();
-        if (scene.name == "customerSceneComplete")
-            Destroy(gameObject);
+        //if (scene.name == "customerSceneComplete")
+        //    Destroy(gameObject);
     }
 }

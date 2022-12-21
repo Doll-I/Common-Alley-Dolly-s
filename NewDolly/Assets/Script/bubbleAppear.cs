@@ -19,12 +19,8 @@ public class bubbleAppear : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Press SPACE");
             panel.SetActive(true);
-
-            //부울 변수 true로
             questComplete = true;
-
         }
     }
 }
