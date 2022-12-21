@@ -1,4 +1,4 @@
-Common Alley Dolly’s
+Common Alley Dolly’s\n
 팀: Doll’I
 팀원: 강단이, 김수현, 박진희, 이가을
 
